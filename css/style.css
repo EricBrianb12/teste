@@ -9,8 +9,7 @@
 }
 
 .container {
-	width: 1023px;
-	margin-left: 70px;
+	width: 1023px;	margin-left: 70px;
 }
 
 .active {	border-left: 8px solid #fff; }
