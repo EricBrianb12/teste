@@ -5,8 +5,45 @@
 	margin-bottom: 36px;
 }
 
-
 .check-item {
 	width: 30px;
 	padding-top: 18px;
+}
+
+/* table-list */
+.table-list { margin: 60px 30px 30px 70px; }
+.list-actions img:nth-child(2) { margin-left: 43px; }
+
+.list-actions img:hover { 
+	cursor: pointer; 
+	width: 42px;
+}
+
+.table-list table {
+	width: 100%;
+	margin-top: 20px;
+	background-color: #fff;
+	border: 1px solid #DBDBDB;
+}
+
+.table-list th {
+	padding: 14px 20px;
+	color: #505050;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: left;
+	background-color: #DBDBDB;
+	border: none;
+}
+
+.table-list td {
+	background: #fff;
+	color: #505050;
+	font-size: 20px;
+	border: none;
+	padding: 14px 20px;
+}
+
+.table-list td:hover {
+	background: #eeee;
 }

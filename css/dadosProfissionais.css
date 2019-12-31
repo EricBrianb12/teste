@@ -7,6 +7,14 @@
 
 .ln-2 {
 	display: flex;
-	justify-content: space-around;
-	padding-left: 20px;
+}
+
+.ln-2 div:nth-child(2),
+.ln-2 div:nth-child(3) {
+	margin-left: 93px;
+}
+
+
+.text {
+	margin-top: 20px;
 }

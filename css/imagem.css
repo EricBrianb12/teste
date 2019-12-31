@@ -1,0 +1,41 @@
+.ln-1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.image {
+	width: 794px;
+	height: 794px;
+	border: 3px solid #222;
+}
+
+.row {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.wrapper {
+	margin-bottom: 60px;
+}
+
+.wrapper form {
+	display: block;
+	text-align: center;
+}
+
+form button {
+	margin-top: 60px;
+	width: 340px;
+	height: 60px;
+	font-size: 18px;
+	border: none;
+	background-color: #003A48;
+	color: #fff;
+	cursor: pointer;
+}
+
+form button:hover {
+	box-shadow: 3px 3px 6px rgba(0,0,0,.3);
+	transition: .2s ease-in-out;
+}
