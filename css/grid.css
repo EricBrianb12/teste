@@ -3,3 +3,12 @@
 .col-3 {width: 234px;}
 .col-4 {width: 330px;}
 .col-6 {width: 100%;}
+
+.row {
+  display: flex;
+}
+
+.row div:nth-child(2),
+.row div:nth-child(3) {
+  margin-left: 20px;
+}
