@@ -2,4 +2,15 @@
 .col-2 {width: 177px;}
 .col-3 {width: 234px;}
 .col-4 {width: 330px;}
-.col-6 {width: 100%;}
+.col-5 {width: 440px;}
+.col-6 {width: 555px;}
+.col-7 {width: 100%;}
+
+.row {
+  display: flex;
+}
+
+.row div:nth-child(2),
+.row div:nth-child(3) {
+  margin-left: 20px;
+}

@@ -1,0 +1,12 @@
+.check {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 36px;
+}
+
+
+.check-item {
+	width: 30px;
+	padding-top: 18px;
+}

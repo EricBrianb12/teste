@@ -68,11 +68,11 @@ ul li a {
 	color: #fff;
 	font-size: 20px;
 	text-decoration: none;
-	transition: .1s ease-in-out;
 }
 
 ul li a:hover {
 	background-color: #011C23;
+	padding-left: 30px;
 	transition: .3s ease-in-out;
 }
 
@@ -141,14 +141,13 @@ ul li a:hover {
 	border-bottom: 2px solid #707070;
 }
 
-.wrapper form {
-	border: 1px solid red;
+.wrapper form { 
+	display: flex; 
+	margin-top: 20px;
 }
 
-.left {
-	max-width: 685px;
-	border: 1px solid #222;
-}
+/* LEFT */
+/*.left { max-width: 685px;}*/
 
 .left label {
 	font-size: 20px;
@@ -159,9 +158,50 @@ ul li a:hover {
 	width: 100%;
 	padding: 10px 20px;
 	margin: 10px 0 20px 0;
+	outline: none;
+	color: #666;
 }
 
-.left div {
-	margin-top: 20px;
-	border: 1px solid blue;
+.left input::placeholder {
+	font-size: 20px;
+}
+
+.left select {
+	width: 100%;
+	padding: 10px 20px;
+	margin: 10px 0 20px 0;
+	outline: none;
+}
+
+.left textarea {
+	height: 140px;
+	margin-top: 10px;
+}
+
+/* right */
+.right {
+	width: 100%;
+	margin-left: 85px;
+	padding-top: 99px;
+}
+
+.right label {
+	font-size: 20px;
+	color: #505050;
+}
+
+.right input {
+	width: 100%;
+	padding: 10px 20px;
+	margin: 10px 0 20px 0;
+	outline: none;
+	color: #666;
+}
+
+.right select {
+	width: 100%;
+	padding: 10px 20px;
+	margin: 10px 0 20px 0;
+	outline: none;
+	color: #666;
 }

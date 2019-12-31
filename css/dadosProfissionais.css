@@ -1,0 +1,12 @@
+.left { width: 95%;}
+
+.ln-1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.ln-2 {
+	display: flex;
+	justify-content: space-around;
+	padding-left: 20px;
+}

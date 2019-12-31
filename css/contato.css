@@ -1,0 +1,6 @@
+.left { width: 95%;}
+
+.ln-1 {
+	display: flex;
+	justify-content: space-between;
+}

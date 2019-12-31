@@ -3,8 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Cadastro de Contribuinte - Pessoas</title>
+	<title>Cadastro de Contribuinte - Enderços</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/endereco.css">
 	<link rel="stylesheet" href="css/grid.css">
 </head>
 <body>
@@ -12,8 +13,8 @@
 		<nav>
 			<div class="logo"></div>
 			<ul>
-				<li><a href="#" class="active">Pessoa</a></li>
-				<li><a href="enderecos.html">Endereços</a></li>
+				<li><a href="pessoa.html">Pessoa</a></li>
+				<li><a href="enderecos.html" class="active">Endereços</a></li>
 				<li><a href="contato.html">Contatos</a></li>
 				<li><a href="banco.html">Bancos</a></li>
 				<li><a href="imagem.html">Imagem</a></li>
@@ -54,122 +55,113 @@
 				<h1>CADASTRO DE CONTRIBUINTE</h1>
 
 				<section class="wrapper container">
-					<h3>DADOS CADASTRAIS</h3>
+					<h3>ENDEREÇO</h3>
 					<form>
 						<div class="left">
 							<div class="col-2">
 								<label>
-									Cód.Contribuinte 
-									<input type="text" name="cod_contrib" placeholder="16356" disabled>
+									Sequência
+									<input type="text" name="cod_contrib" placeholder="1" disabled>
 								</label>
 							</div>
-
-							<div class="col-7">
-								<label>
-									Fantasia / Apelido
-									<input type="text" name="">
-								</label>
-							</div>
-
-							<!-- group 1 -->
-							<div class="row group-one">
+							
+							<div class="row">
 								<div class="col-4">
 									<label>
-										CPF / CNPJ
-										<input type="text" name="">
-									</label>
-								</div>
-	
-								<div class="col-3">
-									<label>
-										Data Abertura CNPJ
+										CEP
 										<input type="text" name="">
 									</label>
 								</div>
 
-								<div class="col-1">
+								<div class="col-2">
 									<label>
-										UF
+										Tipo de endereço
 										<select name="uf">
-											<option value="pr">PR</option>
-											<option value="sp">SP</option>
-											<option value="bh">BH</option>
+											<option value="pr">Residencial</option>
+											<option value="sp">Comercial</option>
+											<option value="bh">Social Civil</option>
 										</select>
 									</label>
 								</div>
+							</div> <!-- row -->
+
+							<div class="col-7">
+								<label>
+									Endereço
+									<input type="text" name="">
+								</label>
 							</div>
-							<!-- /group 1 -->
 
-							<!-- group 2 -->
-							<div class="row group-two">
+							<div class="row">
 								<div class="col-4">
 									<label>
-										Inscrição Estadual
+										Bairro
 										<input type="text" name="">
 									</label>
 								</div>
-								<div class="col-4">
-									<label>
-										N.I.R.E
-										<input type="text" name="">
-									</label>
-								</div>
-							</div> 
-							<!-- /group 2 -->
 
-							<!-- group 3 -->
-							<div class="row group-three">
 								<div class="col-4">
 									<label>
-										N.I.T
+										Cidade
 										<input type="text" name="">
 									</label>
 								</div>
+							</div> <!--  row -->
+
+							<div class="row">
 								<div class="col-4">
 									<label>
-										PIS/PASEP
+										Pais
 										<input type="text" name="">
 									</label>
 								</div>
-							</div> 
-							<!-- /group 3 -->
+
+								<div class="col-4">
+									<label>
+										Inicio Validade
+										<input type="text" name="">
+									</label>
+								</div>
+							</div> <!--  row -->
+
+							<div class="col-7">
+								<label>
+									Complemento 
+									<textarea class="col-7"></textarea>
+								</label>
+							</div>
 						</div>
 						<!-- /left -->
 
+						<!-- right -->
 						<div class="right">
+							<div class="col-3 check">
+								<div class="check-item">
+									<input type="checkbox" name="">
+								</div>
+								<label>Domicilio fiscal estabelecido</label>
+							</div>
+
 							<div class="col-2">
 								<label>
-									Tipo de pessoa
-									<select name="uf">
-										<option value="pr">Jurídica</option>
-										<option value="sp">Fisica</option>
-										<option value="bh">Social Civil</option>
+									Número
+									<input type="text" name="">
+								</label>
+							</div>
+
+							<div class="col-1">
+								<label>
+									Estado
+									<select>
+										<option value="pr">PR</option>
+										<option value="sp">SP</option>
+										<option value="bh">BH</option>
 									</select>
 								</label>
 							</div>
-
-							<div class="col-3">
-								<label>
-									Data de Nascimento
-									<input type="text" name="">
-								</label>
-							</div>
-
-							<div class="col-3">
-								<label>
-									Data Emissão
-									<input type="text" name="">
-								</label>
-							</div>
-
-							<div class="col-3">
-								<label>
-									Emissor                      
-									<input type="text" name="">
-								</label>
-							</div>
-
 						</div>
+						<!-- /right -->
+
 					</form>
 				</section>
 				<!-- section content -->

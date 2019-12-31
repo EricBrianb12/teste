@@ -3,8 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Cadastro de Contribuinte - Pessoas</title>
+	<title>Cadastro de Contribuinte - Contatos</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/contato.css">
 	<link rel="stylesheet" href="css/grid.css">
 </head>
 <body>
@@ -12,9 +13,9 @@
 		<nav>
 			<div class="logo"></div>
 			<ul>
-				<li><a href="#" class="active">Pessoa</a></li>
+				<li><a href="pessoa.html">Pessoa</a></li>
 				<li><a href="enderecos.html">Endereços</a></li>
-				<li><a href="contato.html">Contatos</a></li>
+				<li><a href="contato.html" class="active">Contatos</a></li>
 				<li><a href="banco.html">Bancos</a></li>
 				<li><a href="imagem.html">Imagem</a></li>
 				<li><a href="dadosProfissionais.html">Dados Profissionais</a></li>
@@ -54,122 +55,78 @@
 				<h1>CADASTRO DE CONTRIBUINTE</h1>
 
 				<section class="wrapper container">
-					<h3>DADOS CADASTRAIS</h3>
+					<h3>CONTATO</h3>
 					<form>
 						<div class="left">
-							<div class="col-2">
+
+							<div class="row ln-1">
+								<div class="col-2">
+									<label>
+										Sequência
+										<input type="text" name="cod_contrib" placeholder="1" disabled>
+									</label>
+								</div>
+								<div class="col-4">
+									<label>
+										Inicio Validade
+										<input type="text" name="">
+									</label>
+								</div>
+							</div><!-- row -->
+
+							<div class="col-7">
 								<label>
-									Cód.Contribuinte 
-									<input type="text" name="cod_contrib" placeholder="16356" disabled>
+									Nome do contato
+									<input type="text" name="">
+								</label>
+							</div>
+
+							<div class="row ln-1">
+								<div class="col-5">
+									<label>
+										Telefone Residencial
+										<input type="text" name="">
+									</label>
+								</div>
+								<div class="col-5">
+									<label>
+										Telefone Celular
+										<input type="text" name="">
+									</label>
+								</div>
+							</div> <!-- row -->
+
+							<div class="row ln-1">
+								<div class="col-5">
+									<label>
+										Telefone Comercial
+										<input type="text" name="">
+									</label>
+								</div>
+								<div class="col-5">
+									<label>
+										Fax
+										<input type="text" name="">
+									</label>
+								</div>
+							</div> <!-- row -->
+
+							<div class="col-7">
+								<label>
+									Email
+									<input type="text" name="">
 								</label>
 							</div>
 
 							<div class="col-7">
 								<label>
-									Fantasia / Apelido
-									<input type="text" name="">
-								</label>
-							</div>
-
-							<!-- group 1 -->
-							<div class="row group-one">
-								<div class="col-4">
-									<label>
-										CPF / CNPJ
-										<input type="text" name="">
-									</label>
-								</div>
-	
-								<div class="col-3">
-									<label>
-										Data Abertura CNPJ
-										<input type="text" name="">
-									</label>
-								</div>
-
-								<div class="col-1">
-									<label>
-										UF
-										<select name="uf">
-											<option value="pr">PR</option>
-											<option value="sp">SP</option>
-											<option value="bh">BH</option>
-										</select>
-									</label>
-								</div>
-							</div>
-							<!-- /group 1 -->
-
-							<!-- group 2 -->
-							<div class="row group-two">
-								<div class="col-4">
-									<label>
-										Inscrição Estadual
-										<input type="text" name="">
-									</label>
-								</div>
-								<div class="col-4">
-									<label>
-										N.I.R.E
-										<input type="text" name="">
-									</label>
-								</div>
-							</div> 
-							<!-- /group 2 -->
-
-							<!-- group 3 -->
-							<div class="row group-three">
-								<div class="col-4">
-									<label>
-										N.I.T
-										<input type="text" name="">
-									</label>
-								</div>
-								<div class="col-4">
-									<label>
-										PIS/PASEP
-										<input type="text" name="">
-									</label>
-								</div>
-							</div> 
-							<!-- /group 3 -->
-						</div>
-						<!-- /left -->
-
-						<div class="right">
-							<div class="col-2">
-								<label>
-									Tipo de pessoa
-									<select name="uf">
-										<option value="pr">Jurídica</option>
-										<option value="sp">Fisica</option>
-										<option value="bh">Social Civil</option>
-									</select>
-								</label>
-							</div>
-
-							<div class="col-3">
-								<label>
-									Data de Nascimento
-									<input type="text" name="">
-								</label>
-							</div>
-
-							<div class="col-3">
-								<label>
-									Data Emissão
-									<input type="text" name="">
-								</label>
-							</div>
-
-							<div class="col-3">
-								<label>
-									Emissor                      
+									Home Page
 									<input type="text" name="">
 								</label>
 							</div>
 
 						</div>
+						<!-- /left --> 
 					</form>
 				</section>
 				<!-- section content -->
