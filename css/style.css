@@ -134,11 +134,14 @@ ul li a:hover {
 
 .wrapper {
 	margin-left: 90px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 1px solid #fff;
 }
 
 .wrapper h3 {
 	font-size: 25px;
-	font-weight: 400;
+	font-weight: 500;
 	color: #505050;
 	padding-bottom: 12px;
 	border-bottom: 2px solid #707070;
@@ -163,6 +166,7 @@ ul li a:hover {
 	margin: 10px 0 20px 0;
 	outline: none;
 	color: #666;
+	text-transform: uppercase;
 }
 
 .left input::placeholder {
@@ -185,7 +189,7 @@ ul li a:hover {
 .right {
 	width: 100%;
 	margin-left: 85px;
-	padding-top: 99px;
+	padding-top: 95px;
 }
 
 .right label {
@@ -199,6 +203,7 @@ ul li a:hover {
 	margin: 10px 0 20px 0;
 	outline: none;
 	color: #666;
+	text-transform: uppercase;
 }
 
 .right select {
@@ -207,4 +212,5 @@ ul li a:hover {
 	margin: 10px 0 20px 0;
 	outline: none;
 	color: #666;
+	font-size: 18px;
 }

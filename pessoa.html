@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Cadastro de Contribuinte - Pessoas</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/pessoa.css">
 	<link rel="stylesheet" href="css/grid.css">
 </head>
 <body>
@@ -64,11 +65,13 @@
 								</label>
 							</div>
 
-							<div class="col-7">
-								<label>
-									Fantasia / Apelido
-									<input type="text" name="">
-								</label>
+							<div class="row">
+								<div class="col-7">
+									<label>
+										Fantasia / Apelido
+										<input type="text" name="">
+									</label>
+								</div>
 							</div>
 
 							<!-- group 1 -->
@@ -174,8 +177,62 @@
 				</section>
 				<!-- section content -->
 
-				<section class="wrapper">
-					<h3>DADOS CADASTRAIS</h3>
+				<section class="wrapper container">
+					<h3>REFERÊNCIAS PADRÕES</h3>
+					<!-- Tab -->
+					<div class="tab">
+
+						<!-- Tab panel -->
+						<div class="tab-panel">
+							<input class="tab-open" id="tab-1" name="tab-wrap-1" type="radio" checked>
+							<label class="tab-nav" for="tab-1">1 - Endereço</label>
+							<div class="tab-inner">
+								<div class="left-tab">
+									<p><span>Endereço:</span> Rua pioneiro josé Perego</p>
+									<p><span>Bairro:</span> Jardin Universitário</p>
+									<p><span>Cidade:</span> Maringá</p>
+									<p><span>Complemento:</span> ...</p>
+								</div>
+								<div class="right-tab">
+									<p><span>Número:</span> 102</p>
+									<p><span>CEP:</span> 87020-250</p>
+									<p><span>Estado:</span> BR</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="tab-panel">
+							<input class="tab-open" id="tab-2" name="tab-wrap-1" type="radio">
+							<label class="tab-nav" for="tab-2">2 - Contato</label>
+							<div class="tab-inner">
+								Nada informado
+							</div>
+						</div>
+
+						<div class="tab-panel">
+							<input class="tab-open" id="tab-3" name="tab-wrap-1" type="radio" >
+							<label class="tab-nav" for="tab-3">3 - Contato</label>
+							<div class="tab-inner">
+								Nada informado
+							</div>
+						</div>
+					</div>
+					<!-- /tab -->
+				</section>
+
+				<section class="wrapper container">
+					<h3>OUTRAS INFORMAÇÕES</h3>
+					<div class="outras-info">
+						<div class="left-info">
+							<p><span>Endereço:</span> Rua pioneiro josé Perego</p>
+							<p><span>Bairro:</span> Jardin Universitário</p>
+						</div>
+
+						<div class="righ-info">
+							<p><span>Endereço:</span> Rua pioneiro josé Perego</p>
+							<p><span>Bairro:</span> Jardin Universitário</p>
+						</div>
+					</div>
 				</section>
 			</div>
 			<!-- div info -->
